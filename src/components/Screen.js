@@ -1,7 +1,7 @@
-function Screen() {
+function Screen(props) {
     return (
       <div>
-            <input type="text" className="screen" disabled></input>
+            <input type="text" className="screen" value={props.text} disabled></input>
       </div>
     );
   }
